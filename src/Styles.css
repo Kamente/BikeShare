@@ -1,0 +1,30 @@
+img {
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+}
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+.wholeFetch {
+    display: flex;
+    gap: 200px;
+}
+.vehicleCards{
+    display: flex;
+    gap: 300px;
+}
+.display-vehicles{
+    display: grid;
+    place-items: center;
+}
+.scootersFetch, .bikesFetch{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 300px;
+}
