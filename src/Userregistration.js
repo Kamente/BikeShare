@@ -21,14 +21,10 @@ function Userregistration({newusers}){
                         <img src={user.photo[0]} alt={user.username}/>
                         <h3>Name: {user.username}</h3>
                         <p>Email: {user.email}</p>
-                        {/* <div>{user.bikes.map((bike, index) => (
-                        <p key={user.shortID}>{bike}</p>
-                        ))}</div> */}
                     </div>
                 ))}
                 </div>
             </div>
-            
         </>
     )
 }
