@@ -11,20 +11,107 @@ h1 {
     text-decoration: underline;
 }
 
+.vehicleType {
+    text-align: center;
+    font-size: 40px;
+}
+
 .wholeFetch {
     display: flex;
     gap: 200px;
 }
-.vehicleCards{
+
+.vehicleCards {
     display: flex;
     gap: 300px;
 }
-.display-vehicles{
+
+.display-vehicles {
     display: grid;
     place-items: center;
 }
-.scootersFetch, .bikesFetch{
+
+.scootersFetch,
+.bikesFetch {
     display: flex;
     flex-wrap: wrap;
     gap: 300px;
+}
+
+.card {
+    background-color: rgba(0, 162, 162, 1);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.booking-form {
+    display: grid;
+    justify-content: center;
+}
+.book-page{
+    display: flex;
+    gap: 200px;
+}
+.booking-form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.booking-form button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.payment-success {
+    margin-top: 10px;
+    font-size: 16px;
+    color: green;
+}
+
+
+.paymentdetails {
+    margin-top: 50px;
+}
+
+.paymentdetails h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.paymentdetails ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.paymentdetails li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.paymentdetails a {
+    margin-left: 20px;
+    color: #3252d1;
+    text-decoration: none;
+}
+
+.paymentdetails li svg {
+    margin-left: 5px;
+}
+
+.paymentdetails li svg path {
+    fill: #333;
 }

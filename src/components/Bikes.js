@@ -1,10 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
+// import BookingForm from "./BookingForm";
 
 const Bikes = ({ bikesData }) => {
-    // if (!bikesData || bikesData.length === 0) {
-    //     return <p>Loading...</p>;
-    // }
-
     return (
         <div>
             <h1>Bikes</h1>
@@ -14,6 +12,7 @@ const Bikes = ({ bikesData }) => {
                         <h2>{bike.bikeBrand}</h2>
                         <img src={bike.photos[0]} alt="bike" />
                         <p>Rental price: {bike.pricePerDay}</p>
+                        <Link to={`/booking/bikes/${bike.id}`}>Book Now</Link>
                     </div>
                 ))}
             </div>

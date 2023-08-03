@@ -3,13 +3,15 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Bikes from "./components/Bikes";
 import Scooters from "./components/Scooters";
 import Vehicles from "./components/Vehicles";
+import BookingForm from "./components/BookingForm";
+
 import "./Styles.css";
 
 const App = () => {
   const [bikes, setBikes] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/Bikes')
+    fetch('https://e-bikes.onrender.com/Bikes')
       .then((resp) => resp.json())
       .then((data) => setBikes(data))
       .catch((error) => {
@@ -27,6 +29,7 @@ const App = () => {
         <Route path="/" element={<Vehicles vehicles={bikes} />} />
         <Route path="/bikes" element={<Bikes bikesData={bikesData} />} />
         <Route path="/scooters" element={<Scooters scootersData={scootersData} />} />
+        <Route path="/booking/:type/:id" element={<BookingForm />} />
       </Routes>
     </Router>
   );
