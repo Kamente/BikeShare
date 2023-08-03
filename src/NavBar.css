@@ -48,3 +48,10 @@ gap: 5rem;
     color: #00A2A2;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+

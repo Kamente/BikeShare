@@ -1,10 +1,17 @@
 import React from 'react';
-import homeimg from './images/bike'
 
 function Home(){
     return(
-        <h1>home</h1>
-
+        <>
+        <h1>How To Use E-Bikes</h1>
+        {/* <div className='container'>
+     <p>home</p>
+     <p>home</p>
+     <p>home</p>
+     <p>home</p>
+     <p>home</p>
+     </div> */}
+     </>
     )
 }
 export default Home
