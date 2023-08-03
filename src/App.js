@@ -7,6 +7,10 @@ import BookingForm from "./components/BookingForm";
 import AuthenticationPage from './Authenticationpage';
 import "./Styles.css";
 import './App.css';
+import Home from './Components/Home';
+import About from './Components/About';
+import Evehicles from './Components/Evehicle';
+import NavBar from './NavBar';
 
 const App = () => {
   const [bikes, setBikes] = useState([]);
@@ -26,12 +30,17 @@ const App = () => {
 
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Vehicles vehicles={bikes} />} />
-        <Route path="/bikes" element={<Bikes bikesData={bikesData} />} />
-        <Route path="/scooters" element={<Scooters scootersData={scootersData} />} />
-        <Route path="/booking/:type/:id" element={<BookingForm />} />
-      </Routes>
+      <>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Vehicles vehicles={bikes} />} />
+          <Route path="/bikes" element={<Bikes bikesData={bikesData} />} />
+          <Route path="/scooters" element={<Scooters scootersData={scootersData} />} />
+          <Route path="/booking/:type/:id" element={<BookingForm />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/e-vehicles" element={<Evehicles />} />
+        </Routes>
+      </>
     </Router>
   );
 };
