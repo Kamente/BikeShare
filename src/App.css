@@ -37,181 +37,11 @@
   }
 }
 
-/* .user-list-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f4f4f4;
-}
-
-.user-list {
-  list-style: none;
-  padding: 0;
-}
-
-.user-card {
-  border: 1px solid #ddd;
-  background-color: #fff;
-  padding: 15px;
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.user-details {
-  display: flex;
-  align-items: center;
-}
-
-.user-details img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
-.user-info {
-  font-size: 14px;
-}
-
-.delete-button {
-  padding: 5px 10px;
-  background-color: #ff5c5c;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-body{
-  background-color: aqua;
-}
- */
-
-
- /* .user-list-container {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #f4f4f4;
-}
-
-.user-list-title {
-  text-align: center;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.user-list {
-  list-style: none;
-  padding: 0;
-}
-
-.user-card {
-  background-color: #61dafb;
-  padding: 15px;
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.user-photo {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
-.user-info {
-  font-size: 18px;
-}
-
-.label {
-  font-weight: bold;
-}
-
-.delete-button {
-  padding: 5px 10px;
-  background-color: #ff5c5c;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  
-}
-body{
-  background-color: #61dafb;
-} */
-/* 
-body{
-  background-color: #61dafb;
-} 
 .user-list-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   background-color: #61dafb;
-}
-
-.user-list-title {
-  text-align: center;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.user-list {
-  list-style: none;
-  padding: 0;
-}
-
-.user-card {
-  margin-bottom: 20px;
-  padding: 15px;
-  background-color: #61dafb;
-  border-radius: 8px;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.user-box {
-  display: flex;
-  align-items: center;
-}
-
-.user-photo {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
-.user-info {
-  font-size: 18px;
-}
-
-.label {
-  font-weight: bold;
-}
-
-.delete-button {
-  padding: 5px 10px;
-  background-color: #ff5c5c;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-} */
-
-
-.user-list-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #61dafb;
-  
 }
 
 .user-list-title {
@@ -271,9 +101,7 @@ body{
   border-radius: 4px;
   cursor: pointer;
 }
-body{
+
+body {
   background-color: #61dafb;
-} 
-
-
-
+}
