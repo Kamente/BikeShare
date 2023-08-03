@@ -4,7 +4,7 @@ import React from 'react';
 function Evehicle(){
     return(
             <div>
-                <h1>Evehicle</h1>
+                <h1>vehicles</h1>
             </div>
         )
 }

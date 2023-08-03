@@ -1,29 +1,25 @@
-import  React from 'react'
-import ReactDOM from'react-dom'
+import React from 'react';
 import './/NavBar.css'
-import Evehicle from './Pages/Evehicle'
+import { NavLink } from 'react-router-dom';
 
-function NavBar() {
-    return(
-        <nav className="nav">
-            <h1>Roll <span>Motion</span></h1>
-            <ul className="nav-links">
-                <li>
-                 <a href="/">Home</a>
-                 </li>  
-                 <li>  
-                 <a href="/about us">About us </a> 
-                 </li>   
-                 <li> 
-                 <a href="/e-vehicles">e-Vehicles</a>     
-                </li>
-            </ul>
-            <button class="book">Booking</button>
-        </nav>
+const Navbar = () => {
+  return (
+    <nav className='nav'>
+        <h1>Roll<span>Motion</span></h1>
+      <ul>
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about">About</NavLink>
+        </li>
+        <li>
+          <NavLink to="/e-vehicles">E-Vehicles</NavLink>
+        </li>
+      </ul>
+      <button class="book">Booking</button>
+    </nav>
+  );
+};
 
-        
-    )
-}
-
-export default NavBar
-
+export default Navbar;
