@@ -8,12 +8,12 @@ const Vehicles = () => {
             <p>Choose your ride</p>
             <div className="vehicleCards">
                 <div>
-                <button className="vehicleType">Bicycles</button>
+                    <h2 className="vehicleType">Bikes</h2>
                     <div className="card">
                         <Link to="/bikes">
 
-                            <img className="imgB"
-                                src="https://i.pinimg.com/564x/0f/7f/97/0f7f97656058e5e22ee8617f72b63c7a.jpg"
+                            <img
+                                src="https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860822/Bikes/bike-VTT-1.jpg"
                                 alt="Bikes"
                             />
                         </Link>
@@ -25,18 +25,18 @@ const Vehicles = () => {
                     </div>
                 </div>
                 <div>
-                    <button className="vehicleType">Scooters</button>
+                    <h2 className="vehicleType">Scooters</h2>
                     <div className="card">
                         <Link to="/scooters">
-                            <img className="imgS"
-                                src="https://i.pinimg.com/564x/ef/76/6b/ef766b43632639ac04cc0c54fd946185.jpg"
+                            <img
+                                src="https://i.pinimg.com/564x/e4/21/2e/e4212ecf588319ea55e39a5435e92653.jpg"
                                 alt="Scooters"
                             />
                         </Link>
                         <p className="descrip">
                             Experience the thrill of riding our <br />scooters around town. With their
                             sleek<br /> design and smooth handling, you'll <br /> enjoy a fun and convenient way to
-                            explore the <br/>city streets.
+                            explore the <br />city streets.
                         </p>
                     </div>
                 </div>
