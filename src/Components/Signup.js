@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 
 function Signup() {
-    const [username, setUsername] = useState("")
+    const [username, setUsername] = useState("Guest")
+    
 
   function handleSubmit(event){
     event.preventDefault();

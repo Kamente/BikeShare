@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/****************styling login page****************/
 input[type=text], button, input[type=password]{
   margin:15px;
   padding: 7.5px 10px;
@@ -22,7 +23,10 @@ input[type=text], button, input[type=password]{
 #signin, #signup, #authpage{
   background-color: #00a2a2;
   border-radius: 50px;
-  width: 300px;
+  width: 400px;
+}
+#authpage{
+  margin: auto;
 }
 h1, p{
   color: white;
