@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Evehicles from './Pages/Evehicle';
+import Home from './Components/Home';
+import About from './Components/About';
+import Evehicles from './Components/Evehicle';
 import NavBar from './NavBar';
 
 function App() {
