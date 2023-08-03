@@ -11,34 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-img{
-  height: 200px;
-  width: 200px;
-  border-radius: 30px;
-}
-#users{
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-}
-#userdetails{
-  margin: 20px;
-  background-color: #00a2a2;
-  border-radius: 30px;
-  width: 220px;
-  color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-}
-img{
-  margin-top: 10px;
-}
-
-input[type=text], button, input[type=number]{
-  margin:15px;
-  padding: 10px;
-  border-radius: 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-  border: transparent;
-  background-color: transparent;
-}
