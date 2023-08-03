@@ -37,11 +37,11 @@ const BookingForm = ({ vehicleType, vehicleData }) => {
 
     return (
         <>
-            <p>
-                <Link to={`/${vehicleType === "Bikes" ? "bikes" : "scooters"}`}>
+            <button className="back">
+                <Link  to={`/${vehicleType === "Bikes" ? "bikes" : "scooters"}`}>
                     Back to {vehicleType === "Bikes" ? "Bikes" : "Scooters"}
                 </Link>
-            </p>
+            </button>
             <div className="booking-form">
                 <div className="book-page">
                     <div>

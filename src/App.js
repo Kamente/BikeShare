@@ -4,7 +4,6 @@ import Bikes from "./components/Bikes";
 import Scooters from "./components/Scooters";
 import Vehicles from "./components/Vehicles";
 import BookingForm from "./components/BookingForm";
-import AuthenticationPage from './Authenticationpage';
 import "./Styles.css";
 import './App.css';
 import Home from './Components/Home';

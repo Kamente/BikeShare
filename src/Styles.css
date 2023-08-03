@@ -5,16 +5,20 @@ img {
 }
 
 h1 {
-    color: blue;
+    color: #00A2A2;
     font-size: 50px;
     font-weight: 1000;
-    text-decoration: underline;
+    
+
 }
 
 .vehicleType {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
+    color: #fff;
+
 }
+
 
 .wholeFetch {
     display: flex;
@@ -38,16 +42,72 @@ h1 {
     gap: 300px;
 }
 
-.card {
+/* .card {
     background-color: rgba(0, 162, 162, 1);
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 20px;
 
+} */
+.imgV{
+    border-radius: 20px;
+    width: 400px;
+}
+.imgSV{
+    border-radius: 20px;
+    width: 400px;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
+.linkb {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
+
+button {
+    background-color: #00A2A2;
+    width: 300px;
+    height: 50px;
+    margin-left: 30px;
+}
+.imgB {
+    border-radius: 20px;
+    width: 400px;
+}
+.imgS {
+    border-radius: 20px;
+    width: 500px;
+}
+.bikes{
+    margin-left: 20px;
+}
+.scooters {
+    margin-left: 20px;
+}
+.bbrand{
+    color: #00A2A2;
+    margin-left: 20px;
+   
+    
+}
+.descrip {
+    color: black;
+    font-size: 19px;
+    margin-left: 80px;
+
+    
 }
 
 .booking-form {
     display: grid;
     justify-content: center;
+     margin-right: 100px;
+
+    
 }
 .book-page{
     display: flex;
@@ -59,6 +119,12 @@ h1 {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    
+   
+}
+.back {
+    font-size: 30px;
+    text-decoration: none;
 }
 
 
@@ -66,11 +132,12 @@ h1 {
     display: block;
     margin-top: 10px;
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color:#00A2A2;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: large;
 }
 
 
@@ -104,7 +171,7 @@ h1 {
 
 .paymentdetails a {
     margin-left: 20px;
-    color: #3252d1;
+    color: #00A2A2;
     text-decoration: none;
 }
 
