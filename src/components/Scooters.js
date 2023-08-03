@@ -12,7 +12,7 @@ const Scooters = ({ scootersData }) => {
                         <h2>{scooter.bikeBrand}</h2>
                         <img src={scooter.photos[0]} alt="scooter" />
                         <p>Rental Price: {scooter.pricePerDay}</p>
-                        <Link to={`/booking/scooters/${scooter.id}`}>Book Now</Link>
+                        <Link className="" to={`/booking/scooters/${scooter.id}`}>Book Now</Link>
                     </div>
                 ))}
             </div>
