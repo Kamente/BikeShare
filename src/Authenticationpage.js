@@ -11,7 +11,7 @@ function AuthenticationPage() {
   };
 
   return (
-    <div>
+    <div id="authpage">
       {isSignIn ? <Signin /> : <Signup />}
       <button onClick={togglePage}>
         {isSignIn ? "Don't have an account? Create account" : "Already have an account? Log in"}

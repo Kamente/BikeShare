@@ -17,5 +17,13 @@ input[type=text], button, input[type=password]{
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
   border: transparent;
-  background-color: transparent;
+  background-color: white;
+}
+#signin, #signup, #authpage{
+  background-color: #00a2a2;
+  border-radius: 50px;
+  width: 300px;
+}
+h1, p{
+  color: white;
 }
