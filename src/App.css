@@ -37,4 +37,71 @@
   }
 }
 
+.user-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #61dafb;
+}
 
+.user-list-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #61dafb;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.user-card:hover {
+  background-color: #f9f9f9;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.user-box {
+  display: flex;
+  align-items: center;
+}
+
+.user-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-info {
+  font-size: 18px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+body {
+  background-color: #61dafb;
+}

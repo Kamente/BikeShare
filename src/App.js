@@ -11,9 +11,12 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Evehicles from './Components/Evehicle';
 import NavBar from './NavBar';
+import UserList from './UserList';
+import UserProfile from './UserProfile';
 
 const App = () => {
   const [bikes, setBikes] = useState([]);
+  const [selectedUser, setSelectedUser] = useState(null);
 
   useEffect(() => {
     fetch('https://e-bikes.onrender.com/Bikes')
@@ -28,6 +31,10 @@ const App = () => {
   const bikesData = bikes.slice(0, 7);
   const scootersData = bikes.slice(7, 16);
 
+  const handleUserClick = (user) => {
+    setSelectedUser(user);
+  };
+
   return (
     <Router>
       <>
@@ -39,6 +46,15 @@ const App = () => {
           <Route path="/booking/:type/:id" element={<BookingForm />} />
           <Route path="/about" element={<About />} />
           <Route path="/e-vehicles" element={<Evehicles />} />
+          <Route path="/ft-user-profile">
+            <div className="App">
+              {!selectedUser ? (
+                <UserList handleUserClick={handleUserClick} />
+              ) : (
+                <UserProfile user={selectedUser} />
+              )}
+            </div>
+          </Route>
         </Routes>
       </>
     </Router>
