@@ -18,11 +18,11 @@ Git
 Vscode
 
 ```
-### Deployement links:
+### Deployment links:
 ```
-Website: https://bike-share-eight.vercel.app/
-Bikes and Scooters: https://e-bikes.onrender.com/Bikes
-Users: https://users-qoqt.onrender.com/users
+Website - https://bike-share-eight.vercel.app/
+Bikes and Scooters - https://e-bikes.onrender.com/Bikes
+Users - https://users-qoqt.onrender.com/users
 ```
 
 ### License
