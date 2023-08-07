@@ -5,7 +5,7 @@ import "./Styles.css"
 
 const BikesAndScooters = () => {
     const [bikes, setBikes] = useState([]);
-    const [selectedSection, setSelectedSection] = useState("bikes"); // Default to bikes section
+    const [selectedSection, setSelectedSection] = useState("bikes"); 
 
     useEffect(() => {
         fetch('https://e-bikes.onrender.com/Bikes')
