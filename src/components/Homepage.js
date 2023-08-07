@@ -28,17 +28,17 @@ function Homepage() {
                             <p>Your safety is our top priority. Our e-vehicles are equipped with advanced safety features to ensure a secure ride. Ride with confidence and peace of mind, knowing that our vehicles are designed to protect you on the road.</p>
                             <img src="https://i.pinimg.com/564x/e3/96/1d/e3961dfc9b4f1d3a72f0a07d1e13a070.jpg" alt="Safety Image" />
                         </div>
-                       
+
                         <div className='parking'>
                             <img src="https://i.pinimg.com/564x/1e/42/ae/1e42ae9142d3352a3745f7833502bc22.jpg" alt="Parking Image" />
-                            <p>Convenient parking facilities are available for our e-vehicles. Securely park your rented bike or scooter at designated locations near your destination. Enjoy the ease and flexibility of finding a parking spot hassle-free.</p>
                             <h3>Parking</h3>
+                            <p>Convenient parking facilities are available for our e-vehicles. Securely park your rented bike or scooter at designated locations near your destination. Enjoy the ease and flexibility of finding a parking spot hassle-free.</p>
                             <FontAwesomeIcon icon={faCar} />
                         </div>
-                       
+
                         <div className='training'>
                             <FontAwesomeIcon icon={faGraduationCap} />
-                            <h7>Training Mode</h7>
+                            <h2>Training Mode</h2>
                             <p>Are you new to riding e-vehicles? No worries! Our training mode is designed for beginners to get familiar with our electric bikes and scooters. Gain confidence and learn the controls in a safe and controlled environment.</p>
                             <img src="https://i.pinimg.com/564x/d4/ef/c4/d4efc4adc984d1838df62dc5beefd340.jpg" alt="Training Image" />
                         </div>
@@ -46,9 +46,9 @@ function Homepage() {
                 </section>
             </main>
 
-        
+
             <footer>
-                <p>&copy;Copyright Roll Motion 2023. Rental Agreement. Terms of service. Privacy policy.</p>
+                <p>&copy; Copyright Roll Motion 2023. Rental Agreement. Terms of service. Privacy policy.</p>
             </footer>
         </div>
     );
