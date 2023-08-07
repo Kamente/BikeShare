@@ -8,10 +8,10 @@ const Vehicles = () => {
             <p>Choose your ride</p>
             <div className="vehicleCards">
                 <div>
-                    <button className="vehicleType">Bicycles</button>
+
                     <div className="card">
                         <Link to="/bikes">
-
+                            <button className="vehicleType">Bicycles</button>
                             <img className="imgB"
                                 src="https://i.pinimg.com/564x/0f/7f/97/0f7f97656058e5e22ee8617f72b63c7a.jpg"
                                 alt="Bikes"
@@ -25,9 +25,10 @@ const Vehicles = () => {
                     </div>
                 </div>
                 <div>
-                    <button className="vehicleType">Scooters</button>
+
                     <div className="card">
                         <Link to="/scooters">
+                            <button className="vehicleType">Scooters</button>
                             <img className="imgS"
                                 src="https://i.pinimg.com/564x/ef/76/6b/ef766b43632639ac04cc0c54fd946185.jpg"
                                 alt="Scooters"
