@@ -8,9 +8,21 @@ h1 {
     color: #00A2A2;
     font-size: 50px;
     font-weight: 1000;
-
-
 }
+
+.custom-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+#h1 {
+    margin: 0;
+}
+
 
 .vehicleType {
     text-align: center;

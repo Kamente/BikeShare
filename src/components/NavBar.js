@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './NavBar.css'; // Import your CSS file for styling
 
 const NavBar = ({ loggedInUser }) => {
     return (
         <nav className="custom-nav">
+            <h2 id='h2'>Roll <span id='spann'>Motion</span> </h2>
             <ul>
                 <li>
                     <Link to="/">Home</Link>
