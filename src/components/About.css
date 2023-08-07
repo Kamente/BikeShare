@@ -1,0 +1,28 @@
+/* About.css */
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    background-color: #f5f5f5;
+}
+
+.about-content {
+    flex: 1;
+    padding-right: 40px;
+    color: #333;
+}
+
+.about-images {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
