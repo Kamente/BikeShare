@@ -1,0 +1,359 @@
+{
+    "users": [
+        {
+            "shortId": 1,
+            "username": "Audrey B.",
+            "firstName": "Audrey",
+            "lastName": "Benielli",
+            "email": "audrey.b@gmail.com",
+            "address": "12 rue Traversière",
+            "photo": [
+                "http://res.cloudinary.com/bicycly-cloud/image/upload/c_scale,r_0,w_484/v1543860964/Users/audrey-avatar.jpg"
+            ],
+            "bikes": [
+                18,
+                19
+            ],
+            "ratingValue": 4,
+            "reviews": 23
+        },
+        {
+            "shortId": 2,
+            "username": "Jonathan E.",
+            "firstName": "Jonathan",
+            "lastName": "Eveno",
+            "email": "jonathan.e@gmail.com",
+            "address": "7 rue Omer Talon",
+            "photo": [
+                "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543861496/Users/jonathan-avatar.jpg"
+            ],
+            "bikes": [
+                7,
+                8,
+                9,
+                10
+            ],
+            "ratingValue": 3,
+            "reviews": 8
+        },
+        {
+            "shortId": 3,
+            "username": "Farid S.",
+            "firstName": "Farid",
+            "lastName": "Safi",
+            "email": "farid.s@gmail.com",
+            "address": "8 boulevard de Strasbourg",
+            "photo": [
+                "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543862042/Users/farid-avatar.jpg"
+            ],
+            "bikes": [
+                11,
+                12,
+                13
+            ],
+            "ratingValue": 5,
+            "reviews": 39
+        },
+        {
+            "shortId": 4,
+            "username": "Xavier C.",
+            "firstName": "Xavier",
+            "lastName": "Colombel",
+            "email": "xavier.c@gmail.com",
+            "address": "5 rue Lucien Sampaix",
+            "photo": [
+                "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543862043/Users/xavier-avatar.jpg"
+            ],
+            "bikes": [
+                14,
+                15,
+                16,
+                17
+            ],
+            "ratingValue": 5,
+            "reviews": 29
+        },
+        {
+            "shortId": 5,
+            "username": "Katherine M.",
+            "firstName": "Katherine",
+            "lastName": "Moss",
+            "email": "katherine.m@gmail.com",
+            "address": "34 Rue Yves Toudic",
+            "photo": [
+                "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543876221/Users/17.jpg"
+            ],
+            "bikes": [
+                20,
+                21
+            ],
+            "ratingValue": 4,
+            "reviews": 13
+        },
+        {
+            "shortId": 6,
+            "username": "Eva C.",
+            "firstName": "Eva",
+            "lastName": "Calvert",
+            "email": "eva.c@gmail.com",
+            "address": "2 Rue Perrée",
+            "photo": [
+                "https://res.cloudinary.com/bicycly-cloud/image/upload/c_scale,w_340/v1543876052/Users/eva-avatar.jpg"
+            ],
+            "bikes": [
+                22,
+                23
+            ],
+            "ratingValue": 2,
+            "reviews": 11
+        },
+        {
+            "shortId": 7,
+            "username": "Chloé S.",
+            "firstName": "Chloé",
+            "lastName": "Sirko",
+            "email": "chloe.s@gmail.com",
+            "address": "111 Boulevard Beaumarchais",
+            "photo": [
+                "https://res.cloudinary.com/bicycly-cloud/image/upload/c_scale,w_211/v1543876047/Users/chlo%C3%A9-avatar.jpg"
+            ],
+            "bikes": [
+                24,
+                25,
+                26,
+                27,
+                28
+            ],
+            "ratingValue": 5,
+            "reviews": 11
+        },
+        {
+            "shortId": 8,
+            "username": "Alexis M.",
+            "firstName": "Alexis",
+            "lastName": "Michelot",
+            "email": "alexis.m@gmail.com",
+            "address": "16 rue de Paradis",
+            "photo": [
+                "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860964/Users/alexis-avatar.jpg"
+            ],
+            "bikes": [
+                5,
+                6
+            ],
+            "ratingValue": 4,
+            "reviews": 2
+        },
+        {
+            "shortId": 9,
+            "username": "Wilfried L.",
+            "firstName": "Wilfried",
+            "lastName": "Lloza",
+            "email": "wilfried.w@gmail.com",
+            "address": "40 rue Louis Blanc",
+            "photo": [
+                "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543861186/Users/wilfried-avatar.jpg"
+            ],
+            "bikes": [
+                2,
+                3,
+                4
+            ],
+            "ratingValue": 5,
+            "reviews": 7
+        },
+        {
+            "shortId": 10,
+            "username": "Sophie R.",
+            "firstName": "Sophie",
+            "lastName": "Roberteau",
+            "email": "sophie.r@gmail.com",
+            "address": "21 Avenue de Clichy",
+            "photo": [
+                "https://i.pinimg.com/564x/1c/b6/82/1cb682145307f3475b66e66e95c737d2.jpg"
+            ],
+            "bikes": [
+                29,
+                30
+            ],
+            "ratingValue": 3,
+            "reviews": 6
+        },
+        {
+            "shortId": 11,
+            "username": "Maxime D.",
+            "firstName": "Maxime",
+            "lastName": "Dufour",
+            "email": "maxime.d@gmail.com",
+            "address": "13 Rue de Rivoli",
+            "photo": [
+                "https://i.pinimg.com/564x/e6/0f/68/e60f68cdb3ed036c96262dd8426cfaba.jpg"
+            ],
+            "bikes": [
+                31,
+                32,
+                33
+            ],
+            "ratingValue": 4,
+            "reviews": 16
+        },
+        {
+            "shortId": 12,
+            "username": "Isabelle L.",
+            "firstName": "Isabelle",
+            "lastName": "Lecomte",
+            "email": "isabelle.l@gmail.com",
+            "address": "9 Avenue Foch",
+            "photo": [
+                "https://i.pinimg.com/564x/59/55/54/595554433563e4788fd00c961322d207.jpg"
+            ],
+            "bikes": [
+                34,
+                35,
+                36
+            ],
+            "ratingValue": 5,
+            "reviews": 21
+        },
+        {
+            "shortId": 13,
+            "username": "Luc M.",
+            "firstName": "Luc",
+            "lastName": "Maréchal",
+            "email": "luc.m@gmail.com",
+            "address": "55 Rue de la Roquette",
+            "photo": [
+                "https://i.pinimg.com/564x/84/85/d4/8485d4a3db0f3a8de45bb0368502807e.jpg"
+            ],
+            "bikes": [
+                37,
+                38
+            ],
+            "ratingValue": 3,
+            "reviews": 10
+        },
+        {
+            "shortId": 14,
+            "username": "Emma G.",
+            "firstName": "Emma",
+            "lastName": "Gagné",
+            "email": "emma.g@gmail.com",
+            "address": "4 Rue de la Folie-Méricourt",
+            "photo": [
+                "https://i.pinimg.com/564x/90/1f/71/901f71964394c9c51556e14de3a3585f.jpg"
+            ],
+            "bikes": [
+                39,
+                40,
+                41
+            ],
+            "ratingValue": 4,
+            "reviews": 9
+        },
+        {
+            "shortId": 15,
+            "username": "Thomas P.",
+            "firstName": "Thomas",
+            "lastName": "Perrin",
+            "email": "thomas.p@gmail.com",
+            "address": "18 Rue du Faubourg Saint-Antoine",
+            "photo": [
+                "https://i.pinimg.com/564x/a9/d2/15/a9d2158eda04b5918d61d254d88e5940.jpg"
+            ],
+            "bikes": [
+                42,
+                43
+            ],
+            "ratingValue": 5,
+            "reviews": 15
+        },
+        {
+            "shortId": 16,
+            "username": "Julie R.",
+            "firstName": "Julie",
+            "lastName": "Renard",
+            "email": "julie.r@gmail.com",
+            "address": "29 Rue de la Chapelle",
+            "photo": [
+                "https://i.pinimg.com/564x/96/f3/b6/96f3b6abcebff188ca2a300ded59bf78.jpg"
+            ],
+            "bikes": [
+                44,
+                45,
+                46
+            ],
+            "ratingValue": 4,
+            "reviews": 12
+        },
+        {
+            "shortId": 17,
+            "username": "Nicolas L.",
+            "firstName": "Nicolas",
+            "lastName": "Lemoine",
+            "email": "nicolas.l@gmail.com",
+            "address": "6 Rue de la Convention",
+            "photo": [
+                "https://i.pinimg.com/564x/64/f4/49/64f449cf6ee9a41bcd7be9699a90ca1f.jpg"
+            ],
+            "bikes": [
+                47,
+                48,
+                49
+            ],
+            "ratingValue": 3,
+            "reviews": 5
+        },
+        {
+            "shortId": 18,
+            "username": "Camille D.",
+            "firstName": "Camille",
+            "lastName": "Dupuis",
+            "email": "camille.d@gmail.com",
+            "address": "22 Avenue Jean Jaurès",
+            "photo": [
+                "https://i.pinimg.com/564x/54/b2/ef/54b2efba93bbd4aa2a5a57569125788e.jpg"
+            ],
+            "bikes": [
+                50,
+                51
+            ],
+            "ratingValue": 5,
+            "reviews": 20
+        },
+        {
+            "shortId": 19,
+            "username": "Antoine G.",
+            "firstName": "Antoine",
+            "lastName": "Girard",
+            "email": "antoine.g@gmail.com",
+            "address": "27 Rue du Cherche-Midi",
+            "photo": [
+                "https://i.pinimg.com/564x/18/2e/17/182e178fc830b2db16b8c170e9efa57e.jpg"
+            ],
+            "bikes": [
+                52,
+                53,
+                54
+            ],
+            "ratingValue": 4,
+            "reviews": 14
+        },
+        {
+            "shortId": 20,
+            "username": "Marie L.",
+            "firstName": "Marie",
+            "lastName": "Lafont",
+            "email": "marie.l@gmail.com",
+            "address": "3 Rue de Dunkerque",
+            "photo": [
+                "https://i.pinimg.com/564x/02/83/0d/02830d4fa414dab6be2701b319ac9999.jpg"
+            ],
+            "bikes": [
+                55,
+                56
+            ],
+            "ratingValue": 5,
+            "reviews": 18
+        }
+    ]
+}
