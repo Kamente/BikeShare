@@ -5,7 +5,10 @@
 ## Project Description
 
 ```
-The BikeShare website is a user-friendly platform designed to provide a seamless experience for users to browse, select, and book bicycles and scooters for rental. The website allows users to explore a variety of available bikes and scooters, view their details, and make online bookings. It offers an easy-to-use interface that caters to both casual riders and enthusiasts looking to rent bicycles or scooters for short-term use.
+The BikeShare website is a user-friendly platform designed to provide a seamless experience for users to browse,
+select, and book bicycles and scooters for rental. The website allows users to explore a variety of available
+bikes and scooters, view their details, and make online bookings. It offers an easy-to-use interface that caters to
+both casual riders and enthusiasts looking to rent bicycles or scooters for short-term use.
 ```
 
 ### Technologies Used
